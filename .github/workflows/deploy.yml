@@ -27,7 +27,7 @@ jobs:
         env:
           TITLE: Accelerators Template
           DESCRIPTION: Tutorial for setting up a Snowplow Accelerator
-          BASE_URL: https://docs.snowplow.io/accelerator-template
+          BASE_URL: https://snowplow-incubator.github.io/accelerator-template
           AUTHOR: Jack Keene 
           LANDING_PAGE_URL: /accelerator-template
         run: |
