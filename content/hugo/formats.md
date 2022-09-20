@@ -6,7 +6,7 @@ weight = 2
 #### Headers
 
 
-``` 
+```markdown
 ## Chapter Header
 ### Page Header 
 #### Subheader
@@ -17,6 +17,7 @@ renders to:
 ## Chapter Header
 ### Page Header 
 #### Subheader
+
 
 
 #### Formats
