@@ -25,7 +25,7 @@
 	"title": "Markdown Syntax",
 	"tags": [],
 	"description": "",
-	"content": "Headers ## Chapter Header ### Page Header #### Subheader ``` renders to: ## Chapter Header ### Page Header #### Subheader #### Formats - `**Bold**` renders to **Bold** - `*Italic*` renders to *Italic* - `~Strikethrough~` renders to ~Strikethrough~ - `\u0026gt; Blockquote.` renders to \u0026gt;Blockquote - \\`inline code\\` renders to `inline code` "
+	"content": "Headers ## Chapter Header ### Page Header #### Subheader renders to:\nChapter Header Page Header Subheader Formats **Bold** renders to Bold *Italic* renders to Italic ~Strikethrough~ renders to ~Strikethrough~ \u0026gt; Blockquote. renders to \u0026gt;Blockquote `inline code` renders to inline code "
 },
 {
 	"uri": "https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/notice/",

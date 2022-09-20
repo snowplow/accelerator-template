@@ -23,7 +23,8 @@ Content: This folder contains all of the markdown files that make up the content
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://snowplow-incubator.github.io/accelerator-template/en/hugo/formats/</guid>
-      <description>Headers ## Chapter Header ### Page Header #### Subheader ``` renders to: ## Chapter Header ### Page Header #### Subheader #### Formats - `**Bold**` renders to **Bold** - `*Italic*` renders to *Italic* - `~Strikethrough~` renders to ~Strikethrough~ - `&amp;gt; Blockquote.` renders to &amp;gt;Blockquote - \`inline code\` renders to `inline code` </description>
+      <description>Headers ## Chapter Header ### Page Header #### Subheader renders to:
+Chapter Header Page Header Subheader Formats **Bold** renders to Bold *Italic* renders to Italic ~Strikethrough~ renders to ~Strikethrough~ &amp;gt; Blockquote. renders to &amp;gt;Blockquote `inline code` renders to inline code </description>
     </item>
     
     <item>
