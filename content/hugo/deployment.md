@@ -3,7 +3,7 @@ title = "Deploy"
 weight = 4
 +++
 
-To deploy the hugo site, add the attached `deploy.yml` and save it in a `workflows` folder. 
+To deploy the hugo site, add the attached `deploy.yml` and save it in a `.github/workflows` folder. 
 
 {{%attachments style="blue"/%}}
 

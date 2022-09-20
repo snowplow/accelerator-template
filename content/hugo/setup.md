@@ -20,10 +20,6 @@ The content folder defines the structure of the site. Each folder makes up a cha
 #### Chapters
 For every chapter, an `_index.md` file is required. This is the entry point for the chapter and also contains metadata such as the title and position the chapter takes. This is specified at the top of the page, the metadata for the Hugo Chapter page is as below:
 
-{{% notice note %}}
-The metadata section doesn't support comments so these need to be deleted
-{{% /notice %}}
-
 ```markdown
 +++
 title="Hugo"

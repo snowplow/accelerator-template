@@ -9,7 +9,7 @@ To test the site locally you will need to install Hugo via brew:
 brew install hugo 
 ```
 
-The github action will automatically deploy the site with the theme included, however to test locally you will need to add the below files to your project.
+The github action will deploy the site with the theme included, however to test locally you will need to add the below files to your project.
 
 {{%attachments style="blue"/%}}
 
