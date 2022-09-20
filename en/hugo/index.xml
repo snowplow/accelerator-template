@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Accelerators Template</title>
+    <link>https://docs.snowplow.io/accelerator-template/en/hugo/</link>
+    <description>Recent content in Hugo on Accelerators Template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://docs.snowplow.io/accelerator-template/en/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Folder Structure</title>
+      <link>https://docs.snowplow.io/accelerator-template/en/hugo/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.snowplow.io/accelerator-template/en/hugo/setup/</guid>
+      <description>Hugo Site Generation Hugo is website generator used to build accelerators. This allows us to quickly generate a site, with custom theming and integration with Github pages.
+Most of the Hugo code sits in the accelerator-web-ui-template repo, but for the site to get generated a few things are needed.
+Content: This folder contains all of the markdown files that make up the content of the site Workflows: This folder contains the github action with site specific configuration Content Folder The content folder defines the structure of the site.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax</title>
+      <link>https://docs.snowplow.io/accelerator-template/en/hugo/formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.snowplow.io/accelerator-template/en/hugo/formats/</guid>
+      <description>Headers ## Chapter Header renders to
+Chapter Header ### Page Header renders to
+Page Header #### Subheader renders to
+Subheader Formats **Bold** renders to Bold *Italic* renders to Italic ~Strikethrough~ renders to ~Strikethrough~ &amp;gt; Blockquote. renders to &amp;gt;Blockquote `inline code` renders to inline code </description>
+    </item>
+    
+    <item>
+      <title>Local Testing</title>
+      <link>https://docs.snowplow.io/accelerator-template/en/hugo/local_testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.snowplow.io/accelerator-template/en/hugo/local_testing/</guid>
+      <description>To test the site locally you will need to install Hugo via brew:
+brew install hugo The github action will automatically deploy the site with the theme included, however to test locally you will need to add the below files to your project.
+Attachments Theme.zip (22 MB) To view the hugo site run:
+hugo serve The site should be available at localhost:1313/{ACCELERATOR_NAME}</description>
+    </item>
+    
+    <item>
+      <title>Deploy</title>
+      <link>https://docs.snowplow.io/accelerator-template/en/hugo/deployment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.snowplow.io/accelerator-template/en/hugo/deployment/</guid>
+      <description>To deploy the hugo site, add the attached deploy.yml and save it in a workflows folder.
+Attachments deploy.yml (1 KB) Edit the environment variables below to match your acclerator. Once you push to main the accelerator should be available on the gh-pages site.
+env: TITLE: YOUR_TITLE_HERE DESCRIPTION: YOUR_DESCRIPTION_HERE BASE_URL: https://docs.snowplow.io/GITHUB-REPO-NAME AUTHOR: AUTHOR LANDING_PAGE_URL: /GITHUB-REPO-NAME </description>
+    </item>
+    
+  </channel>
+</rss>
