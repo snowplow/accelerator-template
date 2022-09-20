@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://docs.snowplow.io/accelerator-template/en/introduction/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/introduction/</loc>
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/en/hugo/setup/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/hugo/setup/</loc>
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/en/hugo/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/hugo/</loc>
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/en/hugo/formats/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/hugo/formats/</loc>
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/en/shortcodes/notice/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/notice/</loc>
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/en/hugo/local_testing/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/hugo/local_testing/</loc>
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/en/shortcodes/mermaid/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/mermaid/</loc>
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/en/shortcodes/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/</loc>
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/en/shortcodes/tabs/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/tabs/</loc>
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/en/shortcodes/attachments/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/attachments/</loc>
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/en/hugo/deployment/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/hugo/deployment/</loc>
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/en/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://docs.snowplow.io/accelerator-template/fr/"
+                href="https://snowplow-incubator.github.io/accelerator-template/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://docs.snowplow.io/accelerator-template/en/"
+                href="https://snowplow-incubator.github.io/accelerator-template/en/"
                 />
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/en/categories/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://docs.snowplow.io/accelerator-template/fr/categories/"
+                href="https://snowplow-incubator.github.io/accelerator-template/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://docs.snowplow.io/accelerator-template/en/categories/"
+                href="https://snowplow-incubator.github.io/accelerator-template/en/categories/"
                 />
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/en/tags/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://docs.snowplow.io/accelerator-template/fr/tags/"
+                href="https://snowplow-incubator.github.io/accelerator-template/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://docs.snowplow.io/accelerator-template/en/tags/"
+                href="https://snowplow-incubator.github.io/accelerator-template/en/tags/"
                 />
   </url>
 </urlset>

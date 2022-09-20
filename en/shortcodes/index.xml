@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shortcodes on Accelerators Template</title>
-    <link>https://docs.snowplow.io/accelerator-template/en/shortcodes/</link>
+    <link>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/</link>
     <description>Recent content in Shortcodes on Accelerators Template</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://docs.snowplow.io/accelerator-template/en/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notice</title>
-      <link>https://docs.snowplow.io/accelerator-template/en/shortcodes/notice/</link>
+      <link>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/notice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.snowplow.io/accelerator-template/en/shortcodes/notice/</guid>
+      <guid>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/notice/</guid>
       <description>There are 4 types of notice add structure to your page.
 Note {{% notice note %}} This is a note {{% /notice %}} renders as
 This is a note
@@ -24,10 +24,10 @@ Warning {{% notice warning %}} A warning notice {{% /notice %}} renders as</desc
     
     <item>
       <title>Mermaid</title>
-      <link>https://docs.snowplow.io/accelerator-template/en/shortcodes/mermaid/</link>
+      <link>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/mermaid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.snowplow.io/accelerator-template/en/shortcodes/mermaid/</guid>
+      <guid>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/mermaid/</guid>
       <description>Mermaid is a library that generates charts and diagrams in markdown.
 Gantt Chart Gantt charts are used to demonstrate how long an accelerator will take.
 {{&amp;lt;mermaid&amp;gt;}} gantt dateFormat HH-mm axisFormat %M section 1. Step 1 1h :step1, 00-00, 1m section 2. Step 2 2h :step2, after step1, 2m section 3. Step 3 3h :step3, after step2, 3m {{&amp;lt;/mermaid&amp;gt;}} Renders to:
@@ -36,20 +36,20 @@ gantt dateFormat HH-mm axisFormat %M section 1. Step 1 1h :step1, 00-00, 1m sect
     
     <item>
       <title>Tabs</title>
-      <link>https://docs.snowplow.io/accelerator-template/en/shortcodes/tabs/</link>
+      <link>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/tabs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.snowplow.io/accelerator-template/en/shortcodes/tabs/</guid>
+      <guid>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/tabs/</guid>
       <description>Tabs can be handy for providing code snippets for multiple languages or providing configuration in different formats.
 {{&amp;lt; tabs groupId=&amp;#34;tab_id&amp;#34; &amp;gt;}} {{% tab name=&amp;#34;Tab 1&amp;#34; %}} ### Tab 1 {{% /tab %}} {{% tab name=&amp;#34;Tab 2&amp;#34; %}} ### Tab 2 {{% /tab %}} {{&amp;lt;/tabs &amp;gt;}} Tab 1 Tab 2 Tab 1 Tab 2 </description>
     </item>
     
     <item>
       <title>Attachments</title>
-      <link>https://docs.snowplow.io/accelerator-template/en/shortcodes/attachments/</link>
+      <link>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/attachments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.snowplow.io/accelerator-template/en/shortcodes/attachments/</guid>
+      <guid>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/attachments/</guid>
       <description>The Attachments shortcode displays a list of files attached to a page. This is useful for providing sample data and notebooks.
 The attachments need to be placed in a pages.files folder. For example, if a page is named test_page attachments need to be added to a folder called test_page.files.
 {{%attachments style=&amp;#34;blue&amp;#34;/%}} renders to

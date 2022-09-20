@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://docs.snowplow.io/accelerator-template/fr/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://docs.snowplow.io/accelerator-template/en/"
+                href="https://snowplow-incubator.github.io/accelerator-template/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://docs.snowplow.io/accelerator-template/fr/"
+                href="https://snowplow-incubator.github.io/accelerator-template/fr/"
                 />
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/fr/categories/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://docs.snowplow.io/accelerator-template/en/categories/"
+                href="https://snowplow-incubator.github.io/accelerator-template/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://docs.snowplow.io/accelerator-template/fr/categories/"
+                href="https://snowplow-incubator.github.io/accelerator-template/fr/categories/"
                 />
   </url><url>
-    <loc>https://docs.snowplow.io/accelerator-template/fr/tags/</loc>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://docs.snowplow.io/accelerator-template/en/tags/"
+                href="https://snowplow-incubator.github.io/accelerator-template/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://docs.snowplow.io/accelerator-template/fr/tags/"
+                href="https://snowplow-incubator.github.io/accelerator-template/fr/tags/"
                 />
   </url>
 </urlset>

@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Creating Snowplow Accelerators on Accelerators Template</title>
-    <link>https://docs.snowplow.io/accelerator-template/en/introduction/</link>
+    <link>https://snowplow-incubator.github.io/accelerator-template/en/introduction/</link>
     <description>Recent content in Creating Snowplow Accelerators on Accelerators Template</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://docs.snowplow.io/accelerator-template/en/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="https://snowplow-incubator.github.io/accelerator-template/en/introduction/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
