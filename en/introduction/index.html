@@ -12,22 +12,22 @@
     <title>Creating Snowplow Accelerators | Accelerators Template</title>
 
     
-    <link href="/accelerator-template/css/nucleus.css?1663687248" rel="stylesheet">
-    <link href="/accelerator-template/css/fontawesome-all.min.css?1663687248" rel="stylesheet">
-    <link href="/accelerator-template/css/hybrid.css?1663687248" rel="stylesheet">
-    <link href="/accelerator-template/css/featherlight.min.css?1663687248" rel="stylesheet">
-    <link href="/accelerator-template/css/perfect-scrollbar.min.css?1663687248" rel="stylesheet">
-    <link href="/accelerator-template/css/auto-complete.css?1663687248" rel="stylesheet">
-    <link href="/accelerator-template/css/atom-one-dark-reasonable.css?1663687248" rel="stylesheet">
-    <link href="/accelerator-template/css/theme.css?1663687248" rel="stylesheet">
-    <link href="/accelerator-template/css/tabs.css?1663687248" rel="stylesheet">
-    <link href="/accelerator-template/css/hugo-theme.css?1663687248" rel="stylesheet">
+    <link href="/accelerator-template/css/nucleus.css?1663688005" rel="stylesheet">
+    <link href="/accelerator-template/css/fontawesome-all.min.css?1663688005" rel="stylesheet">
+    <link href="/accelerator-template/css/hybrid.css?1663688005" rel="stylesheet">
+    <link href="/accelerator-template/css/featherlight.min.css?1663688005" rel="stylesheet">
+    <link href="/accelerator-template/css/perfect-scrollbar.min.css?1663688005" rel="stylesheet">
+    <link href="/accelerator-template/css/auto-complete.css?1663688005" rel="stylesheet">
+    <link href="/accelerator-template/css/atom-one-dark-reasonable.css?1663688005" rel="stylesheet">
+    <link href="/accelerator-template/css/theme.css?1663688005" rel="stylesheet">
+    <link href="/accelerator-template/css/tabs.css?1663688005" rel="stylesheet">
+    <link href="/accelerator-template/css/hugo-theme.css?1663688005" rel="stylesheet">
     
-    <link href="/accelerator-template/css/theme-custom.css?1663687248" rel="stylesheet">
+    <link href="/accelerator-template/css/theme-custom.css?1663688005" rel="stylesheet">
     
     
 
-    <script src="/accelerator-template/js/jquery-3.3.1.min.js?1663687248"></script>
+    <script src="/accelerator-template/js/jquery-3.3.1.min.js?1663688005"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -627,51 +627,6 @@
 <li>What content to include/exclude</li>
 </ul>
 
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({ startOnLoad: true });
-</script>
-
-<div class="mermaid" align="center">
-    
-gantt
-        dateFormat  HH-mm
-        axisFormat %M
-        section 1. Upload
-        1h          :upload, 00-00, 1m
-        section 2. Model
-        2h          :model, after upload, 2m
-        section 3. Visualise
-        3h          :visualise, after model, 3m
-        section 4. Track
-        4h          :track, after visualise, 4m
-        section 5. Enrich
-        1h          :enrich, after track, 1m
-        section 6. Next steps
-        2h          :next steps, after enrich, 2m
-
-
-</div>
-<hr>
-<h4 id="prerequisites">Prerequisites</h4>
-<p><strong>Modeling and Visualisation</strong></p>
-<ul>
-<li>dbt CLI installed / dbt Cloud account available
-<ul>
-<li>New dbt project created and configured</li>
-</ul>
-</li>
-<li>Python 3 Installed</li>
-<li>Snowflake account and a user with access to create schemas and tables</li>
-</ul>
-<p><strong>Tracking and Enrichment</strong></p>
-<ul>
-<li>Snowplow pipeline</li>
-<li>Web app to implement tracking</li>
-</ul>
-
-<div class="notices info" ><p>Please note that Snowflake will be used for illustration but the snowplow-web dbt package also supports <strong>BigQuery, Databricks, Postgres</strong> and <strong>Redshift</strong>. Further adapter support for this accelerator coming soon!</p>
-</div>
-
 
 
 
@@ -908,16 +863,16 @@ gantt
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/accelerator-template/js/clipboard.min.js?1663687248"></script>
-    <script src="/accelerator-template/js/perfect-scrollbar.min.js?1663687248"></script>
-    <script src="/accelerator-template/js/perfect-scrollbar.jquery.min.js?1663687248"></script>
-    <script src="/accelerator-template/js/jquery.sticky.js?1663687248"></script>
-    <script src="/accelerator-template/js/featherlight.min.js?1663687248"></script>
-    <script src="/accelerator-template/js/highlight.pack.js?1663687248"></script>
+    <script src="/accelerator-template/js/clipboard.min.js?1663688005"></script>
+    <script src="/accelerator-template/js/perfect-scrollbar.min.js?1663688005"></script>
+    <script src="/accelerator-template/js/perfect-scrollbar.jquery.min.js?1663688005"></script>
+    <script src="/accelerator-template/js/jquery.sticky.js?1663688005"></script>
+    <script src="/accelerator-template/js/featherlight.min.js?1663688005"></script>
+    <script src="/accelerator-template/js/highlight.pack.js?1663688005"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/accelerator-template/js/modernizr.custom-3.6.0.js?1663687248"></script>
-    <script src="/accelerator-template/js/learn.js?1663687248"></script>
-    <script src="/accelerator-template/js/hugo-learn.js?1663687248"></script>
+    <script src="/accelerator-template/js/modernizr.custom-3.6.0.js?1663688005"></script>
+    <script src="/accelerator-template/js/learn.js?1663688005"></script>
+    <script src="/accelerator-template/js/hugo-learn.js?1663688005"></script>
     
         
             <script src="https://unpkg.com/browse/mermaid@8.1.0/dist/mermaid.min.js"></script>
