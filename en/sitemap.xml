@@ -24,6 +24,8 @@
   </url><url>
     <loc>https://snowplow-incubator.github.io/accelerator-template/en/hugo/deployment/</loc>
   </url><url>
+    <loc>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/notebook/</loc>
+  </url><url>
     <loc>https://snowplow-incubator.github.io/accelerator-template/en/</loc>
     <xhtml:link
                 rel="alternate"

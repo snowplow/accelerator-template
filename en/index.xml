@@ -100,5 +100,15 @@ Attachments deploy.yml (1 KB) Edit the environment variables below to match your
 env: TITLE: YOUR_TITLE_HERE DESCRIPTION: YOUR_DESCRIPTION_HERE BASE_URL: https://docs.snowplow.io/GITHUB-REPO-NAME AUTHOR: AUTHOR LANDING_PAGE_URL: /GITHUB-REPO-NAME </description>
     </item>
     
+    <item>
+      <title>Embedding Notebooks</title>
+      <link>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/notebook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/notebook/</guid>
+      <description>To embed a notebook, you can use the jupyter shortcode as below:
+{{&amp;lt; jupyter filename 1000 &amp;gt;}} Click here to view this notebook in full screen </description>
+    </item>
+    
   </channel>
 </rss>

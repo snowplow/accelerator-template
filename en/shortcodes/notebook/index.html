@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/accelerator-template/images/favicon.png" type="image/png">
 
-    <title>Tabs | Accelerators Template</title>
+    <title>Embedding Notebooks | Accelerators Template</title>
 
     
     <link href="/accelerator-template/css/nucleus.css?1663768774" rel="stylesheet">
@@ -37,7 +37,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/accelerator-template/en/shortcodes/tabs/">
+  <body class="" data-url="/accelerator-template/en/shortcodes/notebook/">
     <script type="text/javascript" async=1 >
       ;(function (p, l, o, w, i, n, g) { if (!p[i]) { p.GlobalSnowplowNamespace = p.GlobalSnowplowNamespace || []; p.GlobalSnowplowNamespace.push(i); p[i] = function () { (p[i].q = p[i].q || []).push(arguments) }; p[i].q = p[i].q || []; n = l.createElement(o); g = l.getElementsByTagName(o)[0]; n.async = 1; n.src = w; g.parentNode.insertBefore(n, g) } }(window, document, "script", "https:\/\/snowplow-incubator.github.io\/accelerator-template/js/sp.js", "snowplow"));
       
@@ -139,7 +139,7 @@
             
             
             
-            <option id="en" value="https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/tabs/" selected>English</option>
+            <option id="en" value="https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/notebook/" selected>English</option>
             
             
             
@@ -488,7 +488,7 @@
 
 
 <li data-nav-id="/accelerator-template/en/shortcodes/tabs/" title="Tabs"
-  class="dd-item active">
+  class="dd-item ">
   <a href="/accelerator-template/en/shortcodes/tabs/">
     Tabs
     
@@ -546,7 +546,7 @@
 
 
 <li data-nav-id="/accelerator-template/en/shortcodes/notebook/" title="Embedding Notebooks"
-  class="dd-item ">
+  class="dd-item active">
   <a href="/accelerator-template/en/shortcodes/notebook/">
     Embedding Notebooks
     
@@ -637,7 +637,7 @@
             
           
           
-            <a href='/accelerator-template/en/'>Accelerators Template</a> / <a href='/accelerator-template/en/shortcodes/'>Shortcodes</a> / Tabs
+            <a href='/accelerator-template/en/'>Accelerators Template</a> / <a href='/accelerator-template/en/shortcodes/'>Shortcodes</a> / Embedding Notebooks
           
         
           
@@ -666,61 +666,18 @@
           
             <h1>
               
-              Tabs
+              Embedding Notebooks
             </h1>
           
 
         
 
 
-<p>Tabs can be handy for providing code snippets for multiple languages or providing configuration in different formats.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">tabs</span> <span style="color:#a6e22e">groupId</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;tab_id&#34;</span> &gt;}}
-</span></span><span style="display:flex;"><span>{{% tab name=&#34;Tab 1&#34; %}}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">### Tab 1
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span>{{% /tab %}}
-</span></span><span style="display:flex;"><span>{{% tab name=&#34;Tab 2&#34; %}}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">### Tab 2
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span>{{% /tab %}}
-</span></span><span style="display:flex;"><span>{{&lt;/<span style="color:#f92672">tabs</span> &gt;}}
-</span></span></code></pre></div>
-
-<div class="tab-panel">
-    <div class="tab-nav">
-    
-        <button
-          data-tab-item="Tab 1"
-          data-tab-group="tab_id"
-          class="tab-nav-button btn active"
-          onclick="switchTab('tab_id','Tab 1')"
-         >Tab 1</button>
-    
-        <button
-          data-tab-item="Tab 2"
-          data-tab-group="tab_id"
-          class="tab-nav-button btn "
-          onclick="switchTab('tab_id','Tab 2')"
-         >Tab 2</button>
-    
-    </div>
-    <div class="tab-content">
-        
-        <div data-tab-item="Tab 1" data-tab-group="tab_id" class="tab-item active">
-            <h3 id="tab-1">Tab 1</h3>
-
-        </div>
-        
-        <div data-tab-item="Tab 2" data-tab-group="tab_id" class="tab-item ">
-            <h3 id="tab-2">Tab 2</h3>
-
-        </div>
-        
-    </div>
-</div>
-
+<p>To embed a notebook, you can use the <code>jupyter</code> shortcode as below:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">jupyter</span> <span style="color:#a6e22e">filename</span> <span style="color:#a6e22e">1000</span> &gt;}}
+</span></span></code></pre></div><h3><a href="../static/test.html">Click here to view this notebook in full screen</a></h3>
+<iframe src="../static/test.html"
+    style="height:1000px;width:100%;border:none;overflow:hidden;" scrolling="no"></iframe>
 
 
 <footer class="footline">
@@ -906,6 +863,21 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -923,24 +895,6 @@
             
                 
                     
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -965,10 +919,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/accelerator-template/en/shortcodes/mermaid/" title="Mermaid"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/accelerator-template/en/shortcodes/attachments/" title="Attachments"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/accelerator-template/en/shortcodes/attachments/" title="Attachments" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/accelerator-template/en/shortcodes/notice/" title="Notice" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

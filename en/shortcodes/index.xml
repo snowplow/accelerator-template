@@ -56,5 +56,15 @@ The attachments need to be placed in a pages.files folder. For example, if a pag
 Attachments sample-attachment.txt (27 B) </description>
     </item>
     
+    <item>
+      <title>Embedding Notebooks</title>
+      <link>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/notebook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/notebook/</guid>
+      <description>To embed a notebook, you can use the jupyter shortcode as below:
+{{&amp;lt; jupyter filename 1000 &amp;gt;}} Click here to view this notebook in full screen </description>
+    </item>
+    
   </channel>
 </rss>

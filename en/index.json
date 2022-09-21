@@ -77,6 +77,13 @@
 	"content": "To deploy the hugo site, add the attached deploy.yml and save it in a .github/workflows folder.\nAttachments deploy.yml (1 KB) Edit the environment variables below to match your acclerator. Once you push to main the accelerator should be available on the gh-pages site.\nenv: TITLE: YOUR_TITLE_HERE DESCRIPTION: YOUR_DESCRIPTION_HERE BASE_URL: https://docs.snowplow.io/GITHUB-REPO-NAME AUTHOR: AUTHOR LANDING_PAGE_URL: /GITHUB-REPO-NAME "
 },
 {
+	"uri": "https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/notebook/",
+	"title": "Embedding Notebooks",
+	"tags": [],
+	"description": "",
+	"content": "To embed a notebook, you can use the jupyter shortcode as below:\n{{\u0026lt; jupyter filename 1000 \u0026gt;}} Click here to view this notebook in full screen "
+},
+{
 	"uri": "https://snowplow-incubator.github.io/accelerator-template/en/",
 	"title": "Accelerators Template",
 	"tags": [],
