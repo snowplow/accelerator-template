@@ -51,7 +51,7 @@ Warning {{% notice warning %}} A warning notice {{% /notice %}} renders as</desc
       <guid>https://snowplow-incubator.github.io/accelerator-template/en/hugo/local_testing/</guid>
       <description>To test the site locally you will need to install Hugo via brew:
 brew install hugo The github action will deploy the site with the theme included, however to test locally you will need to add the below files to your project.
-Attachments ThemeFiles.zip (380 KB) To view the hugo site run:
+Attachments ThemeFiles.zip (8 MB) To view the hugo site run:
 hugo serve The site should be available at localhost:1313/{ACCELERATOR_NAME}</description>
     </item>
     

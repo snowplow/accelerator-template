@@ -39,7 +39,7 @@
 	"title": "Local Testing",
 	"tags": [],
 	"description": "",
-	"content": "To test the site locally you will need to install Hugo via brew:\nbrew install hugo The github action will deploy the site with the theme included, however to test locally you will need to add the below files to your project.\nAttachments ThemeFiles.zip (380 KB) To view the hugo site run:\nhugo serve The site should be available at localhost:1313/{ACCELERATOR_NAME}\n"
+	"content": "To test the site locally you will need to install Hugo via brew:\nbrew install hugo The github action will deploy the site with the theme included, however to test locally you will need to add the below files to your project.\nAttachments ThemeFiles.zip (8 MB) To view the hugo site run:\nhugo serve The site should be available at localhost:1313/{ACCELERATOR_NAME}\n"
 },
 {
 	"uri": "https://snowplow-incubator.github.io/accelerator-template/en/shortcodes/mermaid/",
