@@ -3,15 +3,7 @@ title = "Creating Snowplow Accelerators"
 menuTitle="Introduction"
 chapter = false
 weight = 1
-post = ""
-
-aliases = [
-    "/en/",
-    "/en/introduction/"
-]
 +++
-
-#### Introduction
 
 Welcome to the **Snowplow Accelerators** accelerator. Accelerators empower users to efficiently gain value from Snowplow’s technology. This guide covers how to make use of the accelerators template and some general style guidance.
 

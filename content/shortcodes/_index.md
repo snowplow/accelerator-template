@@ -5,6 +5,8 @@ weight = 3
 pre = "2. "
 +++
 
+## Shortcodes
+
 Shortcodes allow us to add custom `html` codeblocks to the accelerator. Examples on this site include:
 
 - Notes

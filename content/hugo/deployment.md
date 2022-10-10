@@ -3,18 +3,34 @@ title = "Deploy"
 weight = 4
 +++
 
-To deploy the hugo site, add the attached `deploy.yml` and save it in a `.github/workflows` folder. 
+To deploy the hugo site edit the `HUGO_BASEURL` in `netlify.toml` to the url for your site.
 
-{{%attachments style="blue"/%}}
+```toml
+[build]
+...
+HUGO_BASEURL = 'https://docs.snowplow.io/accelerators/{{YOUR BASE URL}}/'
+BUILD_OUTPUT_PATH = '/accelerators/{{YOUR BASE URL}}/'
+...
 
-Edit the environment variables below to match your acclerator. Once you push to main the accelerator should be available on the gh-pages site.
-
-```markdown
-env:
-    TITLE: YOUR_TITLE_HERE
-    DESCRIPTION: YOUR_DESCRIPTION_HERE
-    BASE_URL: https://docs.snowplow.io/GITHUB-REPO-NAME
-    AUTHOR: AUTHOR
-    LANDING_PAGE_URL: /GITHUB-REPO-NAME
+[[redirects]]
+...
+to = "/accelerators/{{YOUR BASE URL}}/:splat"
+...
 ```
+
+You will also need to update the information in the `config.toml`.
+
+```toml
+title = "{{ACCELERATOR TITLE}}"
+baseURL = "https://docs.snowplow.io/accelerators/{{YOUR BASE URL}}/"
+
+[params]
+  description = "{{ACCELERATOR DESCRIPTION}}"
+  author = "{{AUTHOR NAMES}}"
+```
+
+Upon PR, a deployment preview will be available to check you are happy with the build as below. Changes will be visible as you commit so there is no need to create multiple PRs.
+
+![deploy](../images/deploy_preview.png)
+
 

@@ -3,18 +3,26 @@ title = "Folder Structure"
 weight = 1
 +++
 
-#### Hugo Site Generation
 Hugo is website generator used to build accelerators. This allows us to quickly generate a site, with custom theming and integration with Github pages.
 
 Most of the Hugo code sits in the [accelerator-web-ui-template](https://github.com/snowplow-incubator/accelerator-web-ui-template) repo, but for the site to get generated a few things are needed.
 
 - **Content:** This folder contains all of the markdown files that make up the content of the site
-- **Workflows:** This folder contains the github action with site specific configuration
+- **Scripts:** This folder contains the build script to deploy the site
+- **Config Files:** Additional config files to define the site parameters
+
+An example of the folder structure can be found in the download below:
+
+{{%attachments style="blue"/%}}
 
 #### Content Folder
-The content folder defines the structure of the site. Each folder makes up a chapter which then generates a navbar as below:
+The content folder defines the structure of the site. Each folder makes up a chapter which then generates a side-navbar, for example:
 
-![content](../images/content.png)
+{{% notice info %}}
+The `Introduction` page goes in the Content folder as `_index.md` and any images on that page should go in an `images` folder within `content`.
+{{% /notice %}}
+
+![content](../images/content.png?width=50pc)
 
 
 #### Chapters
@@ -25,8 +33,6 @@ For every chapter, an `_index.md` file is required. This is the entry point for 
 title="Hugo"
 chapter = true
 weight = 2
-pre = ""
-post = ""
 +++
 ```
 

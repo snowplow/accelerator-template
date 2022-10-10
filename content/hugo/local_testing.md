@@ -9,14 +9,18 @@ To test the site locally you will need to install Hugo via brew:
 brew install hugo 
 ```
 
-The github action will deploy the site with the theme included, however to test locally you will need to add the below files to your project.
-
-{{%attachments style="blue"/%}}
-
-To view the hugo site run:
+To run locally, you may need to add the build script to your environment:
 
 ```bash
-hugo serve
+cd scripts
+chmod +x build.sh && git add build.sh
+cd ..
+```
+
+The build script allows local testing with the command:
+
+```bash
+./scripts/build.sh serve  
 ```
 
 The site should be available at localhost:1313/{ACCELERATOR_NAME}
