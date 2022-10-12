@@ -11,9 +11,7 @@ Most of the Hugo code sits in the [accelerator-web-ui-template](https://github.c
 - **Scripts:** This folder contains the build script to deploy the site
 - **Config Files:** Additional config files to define the site parameters
 
-An example of the folder structure can be found in the download below:
-
-{{%attachments style="blue"/%}}
+An example of the folder structure can be found in the template repository [here](https://github.com/snowplow-incubator/accelerator-template). 
 
 #### Content Folder
 The content folder defines the structure of the site. Each folder makes up a chapter which then generates a side-navbar, for example:
